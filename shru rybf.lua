@@ -1,5 +1,6 @@
 local Gui = Instance.new("ScreenGui")
 Gui.Parent = game.Players.LocalPlayer.PlayerGui
+Gui.ResetOnSpawn = false
 local Frame = Instance.new("Frame")
 Frame.Parent = Gui
 Frame.Position = UDim2.new(0.887, 0, 0.204, 0)
